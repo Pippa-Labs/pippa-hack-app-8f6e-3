@@ -1,0 +1,54 @@
+{
+ "establishments": [
+  {
+   "AddressLine1": "Museum  Science Museum",
+   "AddressLine2": "Exhibition Road",
+   "AddressLine3": "LONDON",
+   "AddressLine4": "",
+   "BusinessName": "Science Museum Shop",
+   "BusinessType": "Retailers - other",
+   "BusinessTypeID": 4613,
+   "ChangesByServerID": 0,
+   "Distance": null,
+   "FHRSID": 535395,
+   "LocalAuthorityBusinessID": "INSPF/13/131198",
+   "LocalAuthorityCode": "520",
+   "LocalAuthorityEmailAddress": "redacted@example.com",
+   "LocalAuthorityName": "Kensington and Chelsea",
+   "LocalAuthorityWebSite": "http://www.rbkc.gov.uk",
+   "NewRatingPending": false,
+   "Phone": "",
+   "PostCode": "SW7 2DD",
+   "RatingDate": "1901-01-01T00:00:00",
+   "RatingKey": "fhrs_exempt_en-gb",
+   "RatingValue": "Exempt",
+   "RightToReply": "",
+   "SchemeType": "FHRS",
+   "geocode": {
+    "longitude": "-0.176514",
+    "latitude": "51.497304"
+   },
+   "scores": {
+    "Hygiene": null,
+    "Structural": null,
+    "ConfidenceInManagement": null
+   }
+  }
+ ],
+ "meta": {
+  "dataSource": "ElasticSearch",
+  "extractDate": "2026-11-20T14:44:43.6791776+00:00",
+  "itemCount": 1,
+  "returncode": "OK",
+  "totalCount": 1,
+  "totalPages": 1,
+  "pageSize": 5,
+  "pageNumber": 1
+ },
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://api.ratings.food.gov.uk/establishments?name=science%20museum%20shop&pagesize=5"
+  }
+ ]
+}

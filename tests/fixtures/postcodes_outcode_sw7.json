@@ -1,0 +1,33 @@
+{
+ "status": 200,
+ "result": {
+  "outcode": "SW7",
+  "longitude": -0.1769685446009388,
+  "latitude": 51.49629941314552,
+  "northings": 179059,
+  "eastings": 526646,
+  "admin_district": [
+   "Kensington and Chelsea",
+   "Westminster"
+  ],
+  "parish": [
+   "Kensington and Chelsea, unparished area",
+   "Westminster, unparished area"
+  ],
+  "admin_county": [],
+  "admin_ward": [
+   "Brompton & Hans Town",
+   "Courtfield",
+   "Knightsbridge & Belgravia",
+   "Lancaster Gate",
+   "Queen's Gate"
+  ],
+  "country": [
+   "England"
+  ],
+  "parliamentary_constituency": [
+   "Cities of London and Westminster",
+   "Kensington and Bayswater"
+  ]
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "establishments": [],
+ "meta": {
+  "dataSource": "ElasticSearch",
+  "extractDate": "2026-11-20T14:42:56.8406299+00:00",
+  "itemCount": 0,
+  "returncode": "OK",
+  "totalCount": 0,
+  "totalPages": 0,
+  "pageSize": 20,
+  "pageNumber": 1
+ },
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://api.ratings.food.gov.uk/establishments?name=chicken&address=exhibition%20road&pagesize=20"
+  }
+ ]
+}

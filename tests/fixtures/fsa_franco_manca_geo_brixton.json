@@ -1,0 +1,54 @@
+{
+ "establishments": [
+  {
+   "AddressLine1": "20 Atlantic Road",
+   "AddressLine2": "London",
+   "AddressLine3": "",
+   "AddressLine4": "",
+   "BusinessName": "Franco Manca",
+   "BusinessType": "Restaurant/Cafe/Canteen",
+   "BusinessTypeID": 1,
+   "ChangesByServerID": 0,
+   "Distance": 0.14091840390127283,
+   "FHRSID": 1808981,
+   "LocalAuthorityBusinessID": "24/00373/COMM",
+   "LocalAuthorityCode": "522",
+   "LocalAuthorityEmailAddress": "redacted@example.com",
+   "LocalAuthorityName": "Lambeth",
+   "LocalAuthorityWebSite": "http://www.lambeth.gov.uk",
+   "NewRatingPending": false,
+   "Phone": "",
+   "PostCode": "SW9 8JA",
+   "RatingDate": "2025-12-19T00:00:00",
+   "RatingKey": "fhrs_5_en-gb",
+   "RatingValue": "5",
+   "RightToReply": "",
+   "SchemeType": "FHRS",
+   "geocode": {
+    "longitude": "-0.113304",
+    "latitude": "51.462574"
+   },
+   "scores": {
+    "Hygiene": 0,
+    "Structural": 0,
+    "ConfidenceInManagement": 0
+   }
+  }
+ ],
+ "meta": {
+  "dataSource": "ElasticSearch",
+  "extractDate": "2026-11-20T14:42:56.5806257+00:00",
+  "itemCount": 1,
+  "returncode": "OK",
+  "totalCount": 1,
+  "totalPages": 1,
+  "pageSize": 20,
+  "pageNumber": 1
+ },
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://api.ratings.food.gov.uk/establishments?name=franco%20manca&latitude=51.46103625406251&longitude=-0.11115278863927161&maxdistancelimit=1&sortoptionkey=distance&pagesize=20"
+  }
+ ]
+}

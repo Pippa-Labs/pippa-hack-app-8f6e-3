@@ -1,0 +1,28 @@
+{
+ "status": 200,
+ "result": [
+  {
+   "code": "osgb4000000074303107",
+   "name_1": "King's Cross",
+   "name_1_lang": null,
+   "name_2": null,
+   "name_2_lang": null,
+   "local_type": "Suburban Area",
+   "outcode": "N1",
+   "county_unitary": "Greater London",
+   "county_unitary_type": "GreaterLondonAuthority",
+   "district_borough": "Islington",
+   "district_borough_type": "LondonBorough",
+   "region": "London",
+   "country": "England",
+   "longitude": -0.11914370871063379,
+   "latitude": 51.5369449512001,
+   "eastings": 530545,
+   "northings": 183681,
+   "min_eastings": 530133,
+   "min_northings": 182992,
+   "max_eastings": 530969,
+   "max_northings": 184157
+  }
+ ]
+}

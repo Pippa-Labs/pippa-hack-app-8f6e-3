@@ -1,0 +1,88 @@
+{
+ "establishments": [
+  {
+   "AddressLine1": "",
+   "AddressLine2": "5 Stable Street",
+   "AddressLine3": "",
+   "AddressLine4": "",
+   "BusinessName": "Dishoom",
+   "BusinessType": "Restaurant/Cafe/Canteen",
+   "BusinessTypeID": 1,
+   "ChangesByServerID": 0,
+   "Distance": 0.24048326422722469,
+   "FHRSID": 804872,
+   "LocalAuthorityBusinessID": "79665",
+   "LocalAuthorityCode": "506",
+   "LocalAuthorityEmailAddress": "redacted@example.com",
+   "LocalAuthorityName": "Camden",
+   "LocalAuthorityWebSite": "http://www.camden.gov.uk",
+   "NewRatingPending": false,
+   "Phone": "",
+   "PostCode": "N1C 4AB",
+   "RatingDate": "2026-01-29T00:00:00",
+   "RatingKey": "fhrs_5_en-gb",
+   "RatingValue": "5",
+   "RightToReply": "",
+   "SchemeType": "FHRS",
+   "geocode": {
+    "longitude": "-0.124696",
+    "latitude": "51.536513"
+   },
+   "scores": {
+    "Hygiene": 5,
+    "Structural": 5,
+    "ConfidenceInManagement": 5
+   }
+  },
+  {
+   "AddressLine1": "Dishoom",
+   "AddressLine2": "Unit 4 Roman Way Industrial Estate",
+   "AddressLine3": "149 Roman Way",
+   "AddressLine4": "London",
+   "BusinessName": "Dishoom",
+   "BusinessType": "Takeaway/sandwich shop",
+   "BusinessTypeID": 7844,
+   "ChangesByServerID": 0,
+   "Distance": 0.47838240769660384,
+   "FHRSID": 1316205,
+   "LocalAuthorityBusinessID": "PI/000288078",
+   "LocalAuthorityCode": "519",
+   "LocalAuthorityEmailAddress": "redacted@example.com",
+   "LocalAuthorityName": "Islington",
+   "LocalAuthorityWebSite": "http://www.islington.gov.uk",
+   "NewRatingPending": false,
+   "Phone": "",
+   "PostCode": "N7 8XH",
+   "RatingDate": "2025-04-16T00:00:00",
+   "RatingKey": "fhrs_5_en-gb",
+   "RatingValue": "5",
+   "RightToReply": "",
+   "SchemeType": "FHRS",
+   "geocode": {
+    "longitude": "-0.1144743",
+    "latitude": "51.5432305"
+   },
+   "scores": {
+    "Hygiene": 5,
+    "Structural": 5,
+    "ConfidenceInManagement": 5
+   }
+  }
+ ],
+ "meta": {
+  "dataSource": "ElasticSearch",
+  "extractDate": "2026-11-20T14:42:56.045681+00:00",
+  "itemCount": 2,
+  "returncode": "OK",
+  "totalCount": 2,
+  "totalPages": 1,
+  "pageSize": 20,
+  "pageNumber": 1
+ },
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://api.ratings.food.gov.uk/establishments?name=dishoom&latitude=51.5369449512001&longitude=-0.11914370871063379&maxdistancelimit=1&sortoptionkey=distance&pagesize=20"
+  }
+ ]
+}

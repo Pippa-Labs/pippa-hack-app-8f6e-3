@@ -1,0 +1,258 @@
+{
+ "establishments": [
+  {
+   "AddressLine1": "Unit 2b Waverley Station",
+   "AddressLine2": "Edinburgh",
+   "AddressLine3": "",
+   "AddressLine4": "",
+   "BusinessName": "Pret a Manger",
+   "BusinessType": "Restaurant/Cafe/Canteen",
+   "BusinessTypeID": 1,
+   "ChangesByServerID": 0,
+   "Distance": 0.015892973249187044,
+   "FHRSID": 1015801,
+   "LocalAuthorityBusinessID": "192048",
+   "LocalAuthorityCode": "773",
+   "LocalAuthorityEmailAddress": "redacted@example.com",
+   "LocalAuthorityName": "Edinburgh (City of)",
+   "LocalAuthorityWebSite": "https://www.edinburgh.gov.uk/food-safety-hygiene",
+   "NewRatingPending": false,
+   "Phone": "",
+   "PostCode": "EH1 1BB",
+   "RatingDate": "2025-09-10T00:00:00",
+   "RatingKey": "fhis_pass_en-gb",
+   "RatingValue": "Pass",
+   "RightToReply": "",
+   "SchemeType": "FHIS",
+   "geocode": {
+    "longitude": "-3.18954706192017",
+    "latitude": "55.9520149230957"
+   },
+   "scores": {
+    "Hygiene": null,
+    "Structural": null,
+    "ConfidenceInManagement": null
+   }
+  },
+  {
+   "AddressLine1": "30 North Bridge",
+   "AddressLine2": "Edinburgh",
+   "AddressLine3": "",
+   "AddressLine4": "",
+   "BusinessName": "Pret A Manger",
+   "BusinessType": "Restaurant/Cafe/Canteen",
+   "BusinessTypeID": 1,
+   "ChangesByServerID": 0,
+   "Distance": 0.09166823941870116,
+   "FHRSID": 732279,
+   "LocalAuthorityBusinessID": "181913",
+   "LocalAuthorityCode": "773",
+   "LocalAuthorityEmailAddress": "redacted@example.com",
+   "LocalAuthorityName": "Edinburgh (City of)",
+   "LocalAuthorityWebSite": "https://www.edinburgh.gov.uk/food-safety-hygiene",
+   "NewRatingPending": false,
+   "Phone": "",
+   "PostCode": "EH1 1QG",
+   "RatingDate": "2019-07-31T00:00:00",
+   "RatingKey": "fhis_pass_en-gb",
+   "RatingValue": "Pass",
+   "RightToReply": "",
+   "SchemeType": "FHIS",
+   "geocode": {
+    "longitude": "-3.188442",
+    "latitude": "55.950932"
+   },
+   "scores": {
+    "Hygiene": null,
+    "Structural": null,
+    "ConfidenceInManagement": null
+   }
+  },
+  {
+   "AddressLine1": "51 Hanover Street",
+   "AddressLine2": "Edinburgh",
+   "AddressLine3": "",
+   "AddressLine4": "",
+   "BusinessName": "Pret A Manger",
+   "BusinessType": "Takeaway/sandwich shop",
+   "BusinessTypeID": 7844,
+   "ChangesByServerID": 0,
+   "Distance": 0.27271755844015383,
+   "FHRSID": 127024,
+   "LocalAuthorityBusinessID": "56063",
+   "LocalAuthorityCode": "773",
+   "LocalAuthorityEmailAddress": "redacted@example.com",
+   "LocalAuthorityName": "Edinburgh (City of)",
+   "LocalAuthorityWebSite": "https://www.edinburgh.gov.uk/food-safety-hygiene",
+   "NewRatingPending": false,
+   "Phone": "",
+   "PostCode": "EH2 2PJ",
+   "RatingDate": "2022-11-15T00:00:00",
+   "RatingKey": "fhis_pass_en-gb",
+   "RatingValue": "Pass",
+   "RightToReply": "",
+   "SchemeType": "FHIS",
+   "geocode": {
+    "longitude": "-3.1966908",
+    "latitude": "55.9531044"
+   },
+   "scores": {
+    "Hygiene": null,
+    "Structural": null,
+    "ConfidenceInManagement": null
+   }
+  },
+  {
+   "AddressLine1": "25 Castle Street",
+   "AddressLine2": "Edinburgh",
+   "AddressLine3": "",
+   "AddressLine4": "",
+   "BusinessName": "Pret A Manger",
+   "BusinessType": "Restaurant/Cafe/Canteen",
+   "BusinessTypeID": 1,
+   "ChangesByServerID": 0,
+   "Distance": 0.5045381019487419,
+   "FHRSID": 105543,
+   "LocalAuthorityBusinessID": "36302",
+   "LocalAuthorityCode": "773",
+   "LocalAuthorityEmailAddress": "redacted@example.com",
+   "LocalAuthorityName": "Edinburgh (City of)",
+   "LocalAuthorityWebSite": "https://www.edinburgh.gov.uk/food-safety-hygiene",
+   "NewRatingPending": false,
+   "Phone": "",
+   "PostCode": "EH2 3DN",
+   "RatingDate": "2023-05-30T00:00:00",
+   "RatingKey": "fhis_pass_en-gb",
+   "RatingValue": "Pass",
+   "RightToReply": "",
+   "SchemeType": "FHIS",
+   "geocode": {
+    "longitude": "-3.2029852",
+    "latitude": "55.9520908"
+   },
+   "scores": {
+    "Hygiene": null,
+    "Structural": null,
+    "ConfidenceInManagement": null
+   }
+  },
+  {
+   "AddressLine1": "135 Princes Street",
+   "AddressLine2": "Edinburgh",
+   "AddressLine3": "",
+   "AddressLine4": "",
+   "BusinessName": "Pret A Manger",
+   "BusinessType": "Restaurant/Cafe/Canteen",
+   "BusinessTypeID": 1,
+   "ChangesByServerID": 0,
+   "Distance": 0.6432666429462749,
+   "FHRSID": 1046167,
+   "LocalAuthorityBusinessID": "193593",
+   "LocalAuthorityCode": "773",
+   "LocalAuthorityEmailAddress": "redacted@example.com",
+   "LocalAuthorityName": "Edinburgh (City of)",
+   "LocalAuthorityWebSite": "https://www.edinburgh.gov.uk/food-safety-hygiene",
+   "NewRatingPending": false,
+   "Phone": "",
+   "PostCode": "EH2 4BL",
+   "RatingDate": "2026-06-29T00:00:00",
+   "RatingKey": "fhis_pass_en-gb",
+   "RatingValue": "Pass",
+   "RightToReply": "",
+   "SchemeType": "FHIS",
+   "geocode": {
+    "longitude": "-3.2064165",
+    "latitude": "55.9506825"
+   },
+   "scores": {
+    "Hygiene": null,
+    "Structural": null,
+    "ConfidenceInManagement": null
+   }
+  },
+  {
+   "AddressLine1": "116 Lothian Road",
+   "AddressLine2": "Edinburgh",
+   "AddressLine3": "",
+   "AddressLine4": "",
+   "BusinessName": "Pret A Manger",
+   "BusinessType": "Takeaway/sandwich shop",
+   "BusinessTypeID": 7844,
+   "ChangesByServerID": 0,
+   "Distance": 0.7398983654667957,
+   "FHRSID": 1011968,
+   "LocalAuthorityBusinessID": "192498",
+   "LocalAuthorityCode": "773",
+   "LocalAuthorityEmailAddress": "redacted@example.com",
+   "LocalAuthorityName": "Edinburgh (City of)",
+   "LocalAuthorityWebSite": "https://www.edinburgh.gov.uk/food-safety-hygiene",
+   "NewRatingPending": false,
+   "Phone": "",
+   "PostCode": "EH3 9BE",
+   "RatingDate": "2019-04-02T00:00:00",
+   "RatingKey": "fhis_pass_en-gb",
+   "RatingValue": "Pass",
+   "RightToReply": "",
+   "SchemeType": "FHIS",
+   "geocode": {
+    "longitude": "-3.206005",
+    "latitude": "55.946143"
+   },
+   "scores": {
+    "Hygiene": null,
+    "Structural": null,
+    "ConfidenceInManagement": null
+   }
+  },
+  {
+   "AddressLine1": "4 Shrubhill Walk Leith Edinburgh",
+   "AddressLine2": "Edinburgh",
+   "AddressLine3": "",
+   "AddressLine4": "",
+   "BusinessName": "Pret A Manger",
+   "BusinessType": "Restaurant/Cafe/Canteen",
+   "BusinessTypeID": 1,
+   "ChangesByServerID": 0,
+   "Distance": 0.8415249720537201,
+   "FHRSID": 1745629,
+   "LocalAuthorityBusinessID": "209374",
+   "LocalAuthorityCode": "773",
+   "LocalAuthorityEmailAddress": "redacted@example.com",
+   "LocalAuthorityName": "Edinburgh (City of)",
+   "LocalAuthorityWebSite": "https://www.edinburgh.gov.uk/food-safety-hygiene",
+   "NewRatingPending": false,
+   "Phone": "",
+   "PostCode": "EH7 4FQ",
+   "RatingDate": "2025-03-25T00:00:00",
+   "RatingKey": "fhis_pass_en-gb",
+   "RatingValue": "Pass",
+   "RightToReply": "",
+   "SchemeType": "FHIS",
+   "geocode": {
+    "longitude": "-3.1797562",
+    "latitude": "55.9627191"
+   },
+   "scores": {
+    "Hygiene": null,
+    "Structural": null,
+    "ConfidenceInManagement": null
+   }
+  }
+ ],
+ "meta": {
+  "dataSource": "ElasticSearch",
+  "extractDate": "2026-11-20T14:42:57.1581697+00:00",
+  "itemCount": 7,
+  "returncode": "OK",
+  "totalCount": 7,
+  "totalPages": 1,
+  "pageSize": 20,
+  "pageNumber": 1
+ },
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://api.ratings.food.gov.uk/establishments?name=pret&latitude=55.951957&longitude=-3.189945&maxdistancelimit=1&sortoptionkey=distance&pagesize=20"
+  }
+ ]
+}

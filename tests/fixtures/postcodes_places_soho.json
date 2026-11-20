@@ -1,0 +1,51 @@
+{
+ "status": 200,
+ "result": [
+  {
+   "code": "osgb4000000074542243",
+   "name_1": "Soho",
+   "name_1_lang": null,
+   "name_2": null,
+   "name_2_lang": null,
+   "local_type": "Suburban Area",
+   "outcode": "B66",
+   "county_unitary": null,
+   "county_unitary_type": null,
+   "district_borough": "Sandwell",
+   "district_borough_type": "MetropolitanDistrict",
+   "region": "West Midlands",
+   "country": "England",
+   "longitude": -1.9528477812024394,
+   "latitude": 52.499488102850314,
+   "eastings": 403298,
+   "northings": 289066,
+   "min_eastings": 402354,
+   "min_northings": 288597,
+   "max_eastings": 404037,
+   "max_northings": 289491
+  },
+  {
+   "code": "osgb4000000074559886",
+   "name_1": "Soho",
+   "name_1_lang": null,
+   "name_2": null,
+   "name_2_lang": null,
+   "local_type": "Suburban Area",
+   "outcode": "W1F",
+   "county_unitary": "Greater London",
+   "county_unitary_type": "GreaterLondonAuthority",
+   "district_borough": "City of Westminster",
+   "district_borough_type": "LondonBorough",
+   "region": "London",
+   "country": "England",
+   "longitude": -0.13370712010377248,
+   "latitude": 51.51297873202493,
+   "eastings": 529603,
+   "northings": 180990,
+   "min_eastings": 529019,
+   "min_northings": 180635,
+   "max_eastings": 529974,
+   "max_northings": 181378
+  }
+ ]
+}

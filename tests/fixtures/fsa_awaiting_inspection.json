@@ -1,0 +1,54 @@
+{
+ "establishments": [
+  {
+   "AddressLine1": "The Great Exhibition",
+   "AddressLine2": "193",
+   "AddressLine3": "Crystal Palace Road",
+   "AddressLine4": "London",
+   "BusinessName": "Parea hospitality ltd",
+   "BusinessType": "Pub/bar/nightclub",
+   "BusinessTypeID": 7843,
+   "ChangesByServerID": 0,
+   "Distance": null,
+   "FHRSID": 1960411,
+   "LocalAuthorityBusinessID": "203652",
+   "LocalAuthorityCode": "528",
+   "LocalAuthorityEmailAddress": "redacted@example.com",
+   "LocalAuthorityName": "Southwark",
+   "LocalAuthorityWebSite": "http://www.southwark.gov.uk/",
+   "NewRatingPending": false,
+   "Phone": "",
+   "PostCode": "SE22 9EP",
+   "RatingDate": "1901-01-01T00:00:00",
+   "RatingKey": "fhrs_awaitinginspection_en-gb",
+   "RatingValue": "AwaitingInspection",
+   "RightToReply": "",
+   "SchemeType": "FHRS",
+   "geocode": {
+    "longitude": "-0.0716388",
+    "latitude": "51.4549081"
+   },
+   "scores": {
+    "Hygiene": null,
+    "Structural": null,
+    "ConfidenceInManagement": null
+   }
+  }
+ ],
+ "meta": {
+  "dataSource": "ElasticSearch",
+  "extractDate": "2026-11-20T14:44:43.5241843+00:00",
+  "itemCount": 1,
+  "returncode": "OK",
+  "totalCount": 1,
+  "totalPages": 1,
+  "pageSize": 5,
+  "pageNumber": 1
+ },
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://api.ratings.food.gov.uk/establishments?name=parea%20hospitality&pagesize=5"
+  }
+ ]
+}

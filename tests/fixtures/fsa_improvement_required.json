@@ -1,0 +1,54 @@
+{
+ "establishments": [
+  {
+   "AddressLine1": "67 Nicolson Street",
+   "AddressLine2": "Edinburgh",
+   "AddressLine3": "",
+   "AddressLine4": "",
+   "BusinessName": "10 to 10 in Delhi",
+   "BusinessType": "Takeaway/sandwich shop",
+   "BusinessTypeID": 7844,
+   "ChangesByServerID": 0,
+   "Distance": null,
+   "FHRSID": 522543,
+   "LocalAuthorityBusinessID": "157354",
+   "LocalAuthorityCode": "773",
+   "LocalAuthorityEmailAddress": "redacted@example.com",
+   "LocalAuthorityName": "Edinburgh (City of)",
+   "LocalAuthorityWebSite": "https://www.edinburgh.gov.uk/food-safety-hygiene",
+   "NewRatingPending": false,
+   "Phone": "",
+   "PostCode": "EH8 9BZ",
+   "RatingDate": "2026-04-15T00:00:00",
+   "RatingKey": "fhis_improvement_required_en-gb",
+   "RatingValue": "Improvement Required",
+   "RightToReply": "",
+   "SchemeType": "FHIS",
+   "geocode": {
+    "longitude": "-3.1847649",
+    "latitude": "55.9454115"
+   },
+   "scores": {
+    "Hygiene": null,
+    "Structural": null,
+    "ConfidenceInManagement": null
+   }
+  }
+ ],
+ "meta": {
+  "dataSource": "ElasticSearch",
+  "extractDate": "2026-11-20T14:44:43.3441678+00:00",
+  "itemCount": 1,
+  "returncode": "OK",
+  "totalCount": 1,
+  "totalPages": 1,
+  "pageSize": 5,
+  "pageNumber": 1
+ },
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://api.ratings.food.gov.uk/establishments?name=10%20to%2010%20in%20delhi&pagesize=5"
+  }
+ ]
+}
