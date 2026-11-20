@@ -46,7 +46,7 @@ app:
   name: Clean Plate
   # Three numbers: 0.1.0, not 0.1 and not v0.1.0. Frozen once you press
   # Submit for review: bump it (0.1.0 -> 0.1.1) before the next push.
-  version: 0.1.0
+  version: 0.1.1
   # One or two sentences, written for someone deciding whether to install it.
   # Say what it does and what it sends anywhere. Never use the word "by" — the
   # badge Pippa shows is parsed from "[via <name> <version> by <author name>]"

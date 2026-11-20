@@ -126,6 +126,7 @@ FSA_BY_NAME = {
 #: FSA searches by name and address (as the person wrote the place).
 FSA_BY_ADDRESS = {
     ("dishoom", "king's cross"): "fsa_dishoom_address_kings_cross.json",
+    ("dishoom", "covent garden"): "fsa_no_results.json",   # FSA addresses never say it
     ("bao", "soho"): "fsa_bao_address_soho.json",
     ("little bao", "soho"): "fsa_bao_address_soho.json",   # a real empty answer: FSA
     ("bon bao", "soho"): "fsa_bao_address_soho.json",      # addresses never say "Soho"
@@ -144,6 +145,7 @@ FSA_NEAR = [
     ("pret", SW7_2AZ, "fsa_pret_geo_sw72az.json"),
     ("pret", SW7, "fsa_pret_geo_sw72az.json"),    # SW7's centre is 400 m from SW7 2AZ
     ("pret", EH1_1BB, "fsa_pret_geo_eh11bb.json"),
+    ("dishoom", (51.51287, -0.12256), "fsa_dishoom_geo_covent_garden.json"),   # london_areas.json
 ]
 POSTCODES = {"SW72AZ": "postcodes_postcode_sw72az.json", "EH11BB": "postcodes_postcode_eh11bb.json"}
 POSTCODES_NOT_FOUND = {"ZZ11ZZ"}
@@ -153,6 +155,7 @@ PLACES = {
     "soho": "postcodes_places_soho.json",
     "brixton": "postcodes_places_brixton.json",
     "exhibition road": "postcodes_places_exhibition_road.json",
+    "covent garden": "postcodes_places_covent_garden.json",     # {"result": []}, really
 }
 
 
@@ -643,6 +646,25 @@ def test_the_narrative_cap_itself():
     assert len(capped) <= MAX_NARRATIVE and capped.endswith("\u2026") and "\n" not in capped
     assert app_module._paragraph("one\n\ntwo\r\nthree") == "one two three"
     assert app_module._paragraph("") == UNEXPECTED and app_module._paragraph(None) == UNEXPECTED
+
+
+def test_covent_garden_comes_from_the_bundled_london_areas():
+    # "Dishoom in Covent Garden": postcodes.io has no place of that name and
+    # no FSA address contains it, so the point comes from london_areas.json.
+    fetch = FakeFetch()
+    result = ask("Dishoom", "Covent Garden", fetch=fetch)
+    assert result.data["postcode"] == "WC2H 9FB", result.data
+    assert result.data["rating"] == "5" and result.data["rating_date"] == "2025-07-22"
+    assert result.narrative == "Dishoom (WC2H 9FB) scored 5 out of 5 for food hygiene, inspected 22 Jul 2025."
+    assert len(fetch.calls) == 3
+
+
+def test_the_london_areas_file_ships_and_is_in_london():
+    import app as app_module
+    assert (HERE / "london_areas.json").is_file()
+    areas = app_module.LONDON_AREAS
+    assert len(areas) >= 50 and "covent garden" in areas and "kings cross" in areas
+    assert all(51.25 < lat < 51.72 and -0.55 < lon < 0.35 for lat, lon in areas.values())
 
 
 def test_picked_by_name_gives_the_same_answer():

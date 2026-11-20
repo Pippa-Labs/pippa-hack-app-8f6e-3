@@ -41,6 +41,9 @@ from pippa_agentapp_sdk import (
 )
 
 MANIFEST_PATH = Path(__file__).with_name("manifest.yaml")
+#: London area names postcodes.io's place list lacks ("Covent Garden"), with a
+#: point for each, from OpenStreetMap. Read once, beside this file.
+AREAS_PATH = Path(__file__).with_name("london_areas.json")
 
 OUTCOME = "hygiene.rating"
 
@@ -325,14 +328,17 @@ class _Lookup:
         if not isinstance(found, list):
             return None
         candidates = [c for c in found if isinstance(c, dict) and _point(c) is not None]
-        if not candidates:
-            return None
         wanted = _norm(name)
         same = [c for c in candidates if _norm(c.get("name_1")) == wanted]
         if same:
             in_london = [c for c in same if _in_london(c)]
             return _point((in_london or same)[0])
-        return _point(candidates[0])
+        # Not a name postcodes.io knows exactly: a London area from the bundled
+        # list ("Covent Garden" is not in its list at all), else its best guess.
+        known = LONDON_AREAS.get(wanted)
+        if known is not None:
+            return known
+        return _point(candidates[0]) if candidates else None
 
     def _get_json(self, url: str, missing_ok: bool = False):
         """One request, parsed. Raises one of the three signals above."""
@@ -476,6 +482,19 @@ def _point(record):
     if not (-90 <= latitude <= 90 and -180 <= longitude <= 180):
         return None
     return latitude, longitude
+
+
+def _load_areas(path: Path = AREAS_PATH) -> dict:
+    """{normalised area name: (latitude, longitude)}; empty if the file is
+    missing or unreadable, so the app still answers without it."""
+    try:
+        areas = json.loads(path.read_text("utf-8"))["areas"]
+        return {_norm(name): (float(lat), float(lon)) for name, (lat, lon) in areas.items()}
+    except (OSError, ValueError, KeyError, TypeError):
+        return {}
+
+
+LONDON_AREAS = _load_areas()
 
 
 def _in_london(candidate: dict) -> bool:
